@@ -31,9 +31,16 @@ To build a predictive model that estimates:
 - Evaluation metrics: MAE, RMSE, R²
 - Feature importance via **SHAP values**
 
-## 🧪 How to Run
+## 🧪 How to Run This Project
 
-1. Clone this repository and navigate into the folder.
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+Follow the steps below to set up and run this project on your local machine.
+
+---
+
+### 📥 1. Clone the Repository
+
+Download the project to your computer using Git:
+
+```bash
+git clone https://github.com/mehmetozbir/parkinsons-detection-with-ML.git
+cd parkinsons-detection-with-ML
