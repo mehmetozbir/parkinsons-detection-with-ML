@@ -25,6 +25,23 @@ To build a predictive model that estimates:
 - SHAP (Explainable AI)
 - Matplotlib / Seaborn
 
+ ## 📂 Dataset Access
+
+The dataset used in this project is **not included in this repository** due to file size or licensing limitations.
+
+You can download the dataset directly from the official UCI Machine Learning Repository:
+
+🔗 [Parkinson's Telemonitoring Dataset – UCI](https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring)
+
+After downloading, place the following files into the root of this project folder:
+- `parkinsons_updrs.data.csv`
+- `parkinsons_updrs.names.csv`
+
+Make sure that your notebook reads the file using the correct path:
+```python
+df = pd.read_csv("parkinsons_updrs.data.csv", names=column_names, header=None)
+
+
 ## 🤖 Model
 
 - **Random Forest Regressor**
